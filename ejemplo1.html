@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/ejes.js"></script>
+        <title>Calculadora magica</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <body class="container ">
+        <!-- <button type="button" onclick="HacerClick()">clickeame</button>
+        -->
+        <input class="form-control mb-4" type="text" id="caja" value="0">
+        <div class="row"> 
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(7)">7</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(8)">8</button>
+            </div>      
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(9)">9</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="operacionClick('suma')">+</button>
+            </div>
+        </div>
+        <div class="row mb-4 mt-4"> 
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(4)">4</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(5)">5</button>
+            </div>      
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(6)">6</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="operacionClick('resta')">-</button>
+            </div>
+        </div>
+        <div class="row mb-4 mt-4"> 
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(1)">1</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(2)">2</button>
+            </div>      
+            <div class="col d-grid">
+                <button class="btn btn-success"type="button" onclick="HacerClick(3)">3</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="operacionClick('multi')">*</button>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="operacionClick('C')">C</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="HacerClick(0)">0</button>
+            </div>      
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="operacionClick('igual')">=</button>
+            </div>
+            <div class="col d-grid">
+                <button class="btn btn-success" type="button" onclick="operacionClick('divi')">/</button>
+            </div>
+        </div>
+
+    </body>
+</html>
